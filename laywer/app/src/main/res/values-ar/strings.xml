@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Watheq</string>
+    <string name="font_bold">fonts/DinNextMedium.ttf</string>
+    <string name="logn_scrn_lable">تسجيل دخول</string>
+    <string name="logn_scrn_msg">ادخل رقم جوالك ثم كود التحقق من الرساله التي ستصلك على هذا الرقم</string>
+    <string name="logn_scrn_are_u_lawyer">هل أنت موثق ؟</string>
+    <string name="logn_scrn_download_app">حمل تطبيق الموثقين من هنا</string>
+    <string name="logn_scrn_confirm_num">أكد الرقم</string>
+    <string name="logn_scrn_confirm">أكد الرقم </string>
+    <string name="logn_scrn_resend">اعادة ارسال الكود</string>
+    <string name="complt_prof_scrn_welcome">مرحبا</string>
+    <string name="complt_prof_scrn_msg">نحتاج لاضافة بعض البيانات لتظهر في ملفك الشخصي</string>
+    <string name="complt_prof_scrn_username_hint">اسم المستخدم</string>
+    <string name="complt_prof_scrn_email_hint">الايميل</string>
+    <string name="complt_prof_scrn_confirm">تأكيد</string>
+    <string name="complt_prof_scrn_privcy_policy">موافق على كافة الأحكام والشروط</string>
+    <string name="validation_error_required">املأ الحقول الاجباريه أولاً</string>
+    <string name="validation_error_email">ادخل بريد الكتروني صحيح</string>
+    <string name="permission_external_storage_rationale">External Storage Permission</string>
+    <string name="allow">السماح</string>
+    <string name="deny">حظر</string>
+    <string name="logn_scrn_phone_empty">من فضلك ادخل رقم الهاتف</string>
+    <string name="logn_scrn_verfe_empty">من فضلك ادخل كود التحقق</string>
+    <string name="all_no_internet">يبدو انك تواجه مشكله بالاتصال بالانترنت الان</string>
+    <string name="invalid_code">كود خاطئ, من فضلك استخدم الكود الصحيح او اعد الارسال</string>
+    <string name="logn_scrn_incorrect_number">من فضلك ادخل رقم هاتف سعودي صحيح</string>
+    <string name="currpted_file">ملف تالف</string>
+    <string name="file_size">حجم الملف يجب ان لا يتعدي 1 ميجا</string>
+    <string name="no_internet">لا يوجد اتصال بالإنترنت</string>
+    <string name="Proof_of_profession">اثبات المهنة</string>
+    <string name="proof_msg">لضمان خدمتنا المقدمة للناس, نحتاج بعض الوثائق لاثبات مهنتك وخبرتك</string>
+    <string name="lawyer">محامي</string>
+    <string name="marriage_official">مأذون</string>
+    <string name="court_certificate">شهادة المحكمه</string>
+    <string name="legal_authorization">التفويض القانوني</string>
+    <string name="graduation_certificate">شهادة التخرج</string>
+    <string name="done">تم</string>
+    <string name="added">تم الاضافه</string>
+    <string name="wathaq">وثق</string>
+    <array name="tab_name">
+        <item>ملفي الشخصي</item>
+        <item>تنبيهات</item>
+        <item>وثق</item>
+        <item>طلباتي</item>
+    </array>
+
+    <string name="service">خدمة</string>
+    <string name="consalt">استشارة</string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "238107082721",
+    "firebase_url": "https://laywer-cdc9a.firebaseio.com",
+    "project_id": "laywer-cdc9a",
+    "storage_bucket": "laywer-cdc9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238107082721:android:bffd03dd3a50e5f0",
+        "android_client_info": {
+          "package_name": "com.watheq.laywer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238107082721-siq2tck15jotb3huv12b2gaj8kp6mjn6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.watheq.laywer",
+            "certificate_hash": "740ed38c8b4ae9655b9094936b079fdf908d16df"
+          }
+        },
+        {
+          "client_id": "238107082721-da9cgdv22k9gv1fd6kmb6q70rhhh3qbi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC89qkp0lRIT9d8E9Lps0G51nhlDpf1wlY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238107082721-da9cgdv22k9gv1fd6kmb6q70rhhh3qbi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

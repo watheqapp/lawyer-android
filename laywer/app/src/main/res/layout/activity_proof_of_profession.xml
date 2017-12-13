@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        tools:context="com.watheq.laywer.authentication.ProofOfProfession">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:gravity="center"
+            android:text="@string/Proof_of_profession"
+            android:textColor="@color/united_blue"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="@string/proof_msg"
+            android:textColor="@color/pastel_blue"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@color/ghost_white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/_10sdp"
+            android:paddingTop="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/lawyer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_30sdp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_red"
+                android:gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/lawyer"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/marriage_official"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/_30sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_corner"
+                android:gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/marriage_official"
+                android:textColor="@color/taupe_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white_smoke"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/_20sdp">
+
+            <TextView
+                android:id="@+id/first_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:drawableEnd="@drawable/ic_add"
+                android:gravity="center|start"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/court_certificate" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/platinum" />
+
+            <TextView
+                android:id="@+id/second_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:drawableEnd="@drawable/ic_add"
+                android:gravity="center|start"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/court_certificate" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/platinum" />
+
+            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                android:id="@+id/complete_files"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/_30sdp"
+                android:layout_marginStart="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:background="@drawable/rounded_corner_blue"
+                android:gravity="center"
+                android:text="@string/done"
+                android:textColor="@android:color/white"
+                android:transitionName="simple_activity_transition"
+                app:initialCornerAngle="@dimen/_10sdp"
+                app:spinning_bar_color="@android:color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
